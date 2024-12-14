@@ -74,7 +74,7 @@ const Home = () => {
               <div className="relative h-[400px] lg:h-[500px] w-full">
                 {/* Main image */}
                 <Image
-                  src="/photos/homepage/5.jpeg"
+                  src="/photos/homepage/5.jpg"
                   alt="Professional Roofing Service"
                   fill
                   priority

@@ -29,7 +29,7 @@ const ComparisonSection: React.FC = () => {
       title: "RESIDENTIAL ROOFING",
       description: "From complete roof replacements to repairs, we provide comprehensive residential roofing services using premium materials and expert installation techniques to protect your home for decades to come.",
       buttonText: "RESIDENTIAL SERVICES",
-      image: "/photos/homepage/1.jpeg",
+      image: "/photos/homepage/1.jpg",
       orientation: "right",
       url: "/residential-roofing"
     },
@@ -37,7 +37,7 @@ const ComparisonSection: React.FC = () => {
       title: "COMMERCIAL ROOFING",
       description: "Our commercial roofing solutions are designed for durability and efficiency. We work with all types of commercial roofing systems, including flat roofs, metal roofing, and built-up roofing systems.",
       buttonText: "COMMERCIAL SERVICES",
-      image: "/photos/homepage/2.jpeg",
+      image: "/photos/homepage/2.jpg",
       orientation: "left",
       url: "/commercial-roofing"
     },
@@ -45,7 +45,7 @@ const ComparisonSection: React.FC = () => {
       title: "EMERGENCY REPAIRS",
       description: "When disaster strikes, our 24/7 emergency repair service ensures your property is protected. We respond quickly to prevent water damage and restore your roof's integrity.",
       buttonText: "EMERGENCY SERVICES",
-      image: "/photos/homepage/3.jpeg",
+      image: "/photos/homepage/3.jpg",
       orientation: "right",
       url: "/emergency-repairs"
     },
@@ -53,7 +53,7 @@ const ComparisonSection: React.FC = () => {
       title: "MAINTENANCE & INSPECTIONS",
       description: "Regular maintenance extends your roof's lifespan and prevents costly repairs. Our comprehensive inspection and maintenance programs keep your roof in optimal condition year-round.",
       buttonText: "MAINTENANCE SERVICES",
-      image: "/photos/homepage/4.jpeg",
+      image: "/photos/homepage/4.jpg",
       orientation: "left",
       url: "/maintenance"
     }

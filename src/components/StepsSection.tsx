@@ -24,32 +24,32 @@ const StepsSection = () => {
   const projects = [
     {
       id: 1,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/1.jpg",
       alt: "Modern asphalt shingle installation"
     },
     {
       id: 2,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/2.jpg",
       alt: "Commercial flat roof project"
     },
     {
       id: 3,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/3.jpg",
       alt: "Cedar shake roof replacement"
     },
     {
       id: 4,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/4.jpg",
       alt: "Metal roofing installation"
     },
     {
       id: 5,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/5.jpg",
       alt: "Emergency roof repair project"
     },
     {
       id: 6,
-      imgUrl: "/api/placeholder/400/300",
+      imgUrl: "/photos/examples/2.jpg",
       alt: "Residential roof replacement"
     }
   ];
