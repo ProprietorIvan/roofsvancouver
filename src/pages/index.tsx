@@ -9,11 +9,10 @@ import Image from 'next/image';
 const Home = () => {
   const router = useRouter();
 
+  // Handle bottom CTA button clicks
   const handleContact = (method: 'phone' | 'email') => {
-    if (method === 'phone') {
-      window.location.href = 'tel:+17786542681';
-    } else if (method === 'email') {
-      window.location.href = 'mailto:office@roofsvancouver.com';
+    if (method === 'phone' || method === 'email') {
+      router.push('/contact');
     }
   };
 
@@ -29,7 +28,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative z-10">
               <div className="inline-block bg-[#E74C3C] text-white px-4 py-1 rounded-full text-sm font-medium mb-6">
-                Established 1998
+                Established 2022
               </div>
               <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 font-display text-[#2C3E50]">
                 Vancouver
@@ -41,7 +40,7 @@ const Home = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => handleContact('phone')}
+                  onClick={() => router.push('/contact')}
                   className="group flex items-center justify-center gap-2 bg-[#E74C3C] text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-[#D44332] transition-colors"
                 >
                   <Phone className="w-5 h-5" />
@@ -49,11 +48,11 @@ const Home = () => {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button
-                  onClick={() => handleContact('email')}
+                  onClick={() => router.push('/contact')}
                   className="group flex items-center justify-center gap-2 bg-white border-2 border-[#2C3E50] text-[#2C3E50] px-8 py-4 rounded-full text-lg font-medium hover:bg-[#F8F9FA] transition-colors"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>Email Us</span>
+                  <span>Contact Us</span>
                 </button>
               </div>
 
@@ -120,7 +119,7 @@ const Home = () => {
             Ready to Elevate Your Roofing Project?
           </h2>
           <p className="text-[#BDC3C7] mb-12 text-lg max-w-2xl mx-auto">
-            Join Vancouver most trusted roofing service. Professional solutions, lasting quality.
+            Join Vancouver&apos;s most trusted roofing service. Professional solutions, lasting quality.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
