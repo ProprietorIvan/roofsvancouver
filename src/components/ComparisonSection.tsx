@@ -31,7 +31,7 @@ const ComparisonSection: React.FC = () => {
       buttonText: "RESIDENTIAL SERVICES",
       image: "/photos/homepage/1.jpg",
       orientation: "right",
-      url: "/residential-roofing"
+      url: "/services/residential-roofing"
     },
     {
       title: "COMMERCIAL ROOFING",
@@ -39,7 +39,7 @@ const ComparisonSection: React.FC = () => {
       buttonText: "COMMERCIAL SERVICES",
       image: "/photos/homepage/2.jpg",
       orientation: "left",
-      url: "/commercial-roofing"
+      url: "/services/commercial"
     },
     {
       title: "EMERGENCY REPAIRS",
@@ -47,7 +47,7 @@ const ComparisonSection: React.FC = () => {
       buttonText: "EMERGENCY SERVICES",
       image: "/photos/homepage/3.jpg",
       orientation: "right",
-      url: "/emergency-repairs"
+      url: "/services/emergency"
     },
     {
       title: "MAINTENANCE & INSPECTIONS",
@@ -55,7 +55,7 @@ const ComparisonSection: React.FC = () => {
       buttonText: "MAINTENANCE SERVICES",
       image: "/photos/homepage/4.jpg",
       orientation: "left",
-      url: "/maintenance"
+      url: "/services/maintenance"
     }
   ];
 
